@@ -1,0 +1,90 @@
+a{
+	text-decoration: none;
+	cursor: pointer;
+	margin-left: 15px;
+	color: #0b6ebd;
+}
+
+a:hover{
+	border-bottom: 2px solid;
+}
+
+.todo-cont{
+	width: 1000px;
+	margin: auto;
+	border-top: 35px solid rgba(89, 101, 107, 0.9);
+	background-color: white;
+	padding-top: 35px;
+}
+
+.del-link{
+	color: #e20b0b;
+}
+
+input[type='text']{
+	/*display: none;*/
+	width: 60%;
+    padding: 10px 10px;
+    border: 2px solid rgba(128, 128, 128, 0.5);
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+li{
+	border-bottom: 2.5px solid rgba(128, 128, 128, 0.15);
+	padding: 20px 15px;
+}
+
+li p{
+	display: inline;
+}
+
+.change-links{
+	float: right;
+}
+
+input[type='checkbox']{
+	margin-right: 7px;
+}
+
+.edited:after{
+	content: "EDITED";
+	margin-left: 10px;
+    font-size: 14px;
+    color: #797575;
+}
+
+.completed{
+	color: #a7b9c4;
+	text-decoration: line-through;
+}
+
+.not-saved{
+	color: #a29e9e;
+}
+
+/*top bar styles*/
+.top-bar{
+	display: flex;
+	padding: 10px 15px;
+}
+
+.top-bar h3{
+	margin: 0;
+}
+
+.top-bar a{
+	margin-left: auto;
+}
+/*top bar styles ---*/
+
+
+
+
+
+
